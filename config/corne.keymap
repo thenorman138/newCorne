@@ -85,11 +85,11 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE  &kp EXCL      &kp AT        &kp HASH  &kp DLLR   &kp PERCENT    &mmv MOVE_UP     &kp CARET  &kp AMPS          &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE
-&kp CAPS   &kp NUMBER_1  &kp NUMBER_2  &kp N3    &kp N4     &kp N5         &mmv MOVE_DOWN   &kp N6     &kp N7            &kp N8             &kp N9                &kp N0                 &kp PIPE
-&trans     &trans        &trans        &trans    &kp EQUAL  &kp PLUS       &mmv MOVE_LEFT   &kp MINUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH
-                         &kp C_MUTE    &trans    &trans     &trans         &mmv MOVE_RIGHT  &trans     &trans            &trans
-                                                                           &mkp LCLK
+&kp TILDE  &kp EXCL      &kp AT         &kp HASH          &kp DLLR   &kp PERCENT    &mmv MOVE_UP     &kp CARET  &kp AMPS          &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE
+&kp CAPS   &kp NUMBER_1  &kp NUMBER_2   &kp N3            &kp N4     &kp N5         &mmv MOVE_DOWN   &kp N6     &kp N7            &kp N8             &kp N9                &kp N0                 &kp PIPE
+&trans     &trans        &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL  &kp PLUS       &mmv MOVE_LEFT   &kp MINUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH
+                         &kp C_MUTE     &trans            &trans     &trans         &mmv MOVE_RIGHT  &trans     &trans            &trans
+                                                                                    &mkp LCLK
             >;
 
             label = "NUMBER";
